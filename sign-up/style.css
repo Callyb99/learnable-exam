@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'poppins',sans-serif;
+
+}
+
+#headsection{
+    background: url(./img/WhatsApp\ Image\ 2023-11-08\ at\ 11.57.59\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+   }
+   .head{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    max-width: 100rem;
+
+   }
+.smaller-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400rem;
+    padding: 2rem;
+    background-color: white; 
+    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    /* height: 80vh; */
+   /* border-radius: 2rem; */
+   
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.smaller-section h3{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+.smaller-section p{
+    font-size: 1.4rem;
+}
+.icons{
+margin-top: 2.4rem;
+
+}
+.sub-icons{
+    border: 0.1rem solid black;
+    padding: 1rem 2rem;
+    margin-bottom: 1.3rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ion-icon{
+    margin-right: 1rem;
+
+}
+.itm1{
+    color: blue;
+    
+}
+.itm4{
+    color: lightblue;
+
+}
+.itm2{
+    background: conic-gradient(
+        from 0deg,
+         lightblue,
+        green,
+        yellow,
+        red
+
+    );
+    color: white;
+}
+
+.img2{
+    max-width: 50rem;
+    margin-right: 10rem;
+     /* height: 90vh;  */
+}
+.img2 img{
+      height: 90vh;  
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+@media(max-width: 64em){
+    .smaller-section{
+        max-width:40rem
+    }
+    .img2{
+        max-width: 40rem;
+    }
+    .img2 img{
+        width: 100%;
+        height: vh;
+    }
+}
+
+@media( max-width: 52em) {
+    .head{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img2{
+        display: none;
+    }
+    .smaller-section{
+        border-radius: 2rem;
+        width: 90%;
+        justify-content: center;
+    }
+    .smaller-section p{
+        text-align: center;
+    }
+}
+@media( max-width:23.1em) {
+.smaller-section{
+    padding: 1rem;
+}
+.smaller-section p{
+    font-size: 1.2rem;
+}
+.span{
+    font-size: 1.2rem;
+}
+}
